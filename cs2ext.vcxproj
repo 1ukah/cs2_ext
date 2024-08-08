@@ -22,8 +22,9 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{edf55bae-85b4-4d94-8901-6c60306ab721}</ProjectGuid>
-    <RootNamespace>nigleyfagmire</RootNamespace>
+    <RootNamespace>cs2ext</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>cs2ext</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -74,21 +75,21 @@
     <TargetName>svchost</TargetName>
     <OutDir>$(SolutionDir)debug\</OutDir>
     <IntDir>$(SolutionDir)debug\inters\</IntDir>
-    <IncludePath>C:\Users\lukah\Desktop\nigley_fagmire\deps;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\%USERPROFILE%\Desktop\cs2ext\deps;$(IncludePath)</IncludePath>
     <LibraryPath>$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <TargetName>svchost</TargetName>
     <OutDir>$(SolutionDir)release\</OutDir>
     <IntDir>$(SolutionDir)release\inters\</IntDir>
-    <IncludePath>C:\Users\lukah\Desktop\nigley_fagmire\deps;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\%USERPROFILE%\Desktop\cs2ext\deps;$(IncludePath)</IncludePath>
     <LibraryPath>$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(SolutionDir)debug(win32)\</OutDir>
     <IntDir>$(SolutionDir)debug(win32)\inters\</IntDir>
     <TargetName>svchost</TargetName>
-    <IncludePath>C:\Users\lukah\Desktop\nigley_fagmire\deps;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\%USERPROFILE%\Desktop\cs2ext\deps;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
